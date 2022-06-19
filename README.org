@@ -1,0 +1,11 @@
+#+title: Readme File for Underfoot Project
+
+* Underfoot 
+** Overview
+   Underfoot is a simple game I am making to learn the usage of pygame. I've never done any real game development and this seems like a fun way to do so. Underfoot is developed in python using pygame. As of the time of this documentation update I'm using 3.10 because I want to play with match syntax. I could push the reqs up later.
+** Contributions
+   I'm not certain I'll accept PR's and such with this project since its me learning. If I plan to I'll update this. 
+** Reference Materials
+*** Repo Structure
+    I'm using poetry here for the first time and followed loosely https://blog.pronus.io/en/posts/python/how-to-set-up-a-perfect-python-project/ which was easy. Poetry works fine with pyenv. I'm also following the authors information about integrating github actions. We use ADO at work so this will be a fun thing to keep me current. 
+
