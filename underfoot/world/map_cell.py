@@ -13,3 +13,13 @@ class MapCell:
     cell_position: Tuple[int, int, int]
     cell_terrain: str
     cell_objects_list: List[str]
+
+    @property
+    def cell_populated(self) -> bool:
+        """
+        Returns a truthy value if cell objects list is not empty
+        """
+        if self.cell_objects_list == 0:
+            return False
+        else:
+            return True
