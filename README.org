@@ -9,3 +9,4 @@
 *** Repo Structure
     I'm using poetry here for the first time and followed loosely https://blog.pronus.io/en/posts/python/how-to-set-up-a-perfect-python-project/ which was easy. Poetry works fine with pyenv. I'm also following the authors information about integrating github actions. We use ADO at work so this will be a fun thing to keep me current. 
 
+
