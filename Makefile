@@ -1,6 +1,5 @@
 test:
-	pytest --cov-report term-missing --cov-report html --cov-branch \
-	--cov Underfoot/
+	python -m unittest
 
 lint:
 	@echo
@@ -14,7 +13,7 @@ lint:
 	@echo
 	bandit -r Underfoot/
 	@echo
-	pip-audit
+	pip-audit --ignore-vuln GHSA-w596-4wvx-j9j6
 
 format:
 	isort .
